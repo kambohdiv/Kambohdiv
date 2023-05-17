@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 10%;
+  background-image: url(cool-background\ \(1\).png);
+  background-position: center center/cover no-repeat;
+}
+
+
+
+.container {
+  box-shadow: 0px 0px 100px rgba(22, 21, 21, 0.467);
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: solid 1px black;
+}
+
+.container .btn {
+  margin-top: 20px;
+  background: #000000;
+  padding: 16px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.6;
+  outline: 0;
+  border: 0;
+  pointer-events: none;
+  float: right;
+  position: relative;
+  bottom: 67.8px;
+  left: 22.9px;
+
+}
+.img{
+  position: absolute;
+  bottom:0px;
+  transform: translate(-50%,-50%);
+  left: 50%;
+}
+.container .btn::after {
+  content: " Please Enter Something";
+  width: 7.9rem;
+  padding: 4px;
+  left: 0;
+  background: #000000;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  border-radius: 3px;
+}
+
+textarea:valid~.btn {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+textarea:valid~.btn::after {
+  position: relative;
+  display: none;
+}
+
+.container .btn:hover {
+  color: #4070f4;
+}
+
+.wrapper {
+  padding: 15px;
+  padding-right: 35px;
+}
+
+.container h4 {
+  text-align: center;
+  padding: 10px;
+  background: #000000;
+  color: #ffffff;
+
+}
+.align button,
+.font button {
+  cursor: pointer;
+}
+
+.container .font,
+.container .align {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+}
+
+.container .font p,
+.container .align p {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.container .font button,
+.container .align button {
+  width: 50px;
+  padding: 10px;
+  border: 0;
+}
+
+.container textarea {
+  width: 100%;
+  height: 300px;
+  resize: none;
+  padding: 10px;
+
+}
+
+.wrapper textarea::-webkit-scrollbar {
+  width: 0.5rem;
+
+}
+
+.wrapper textarea::-webkit-scrollbar-track {
+  background: #d9d9d9;
+}
+
+.wrapper textarea::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.alignLeft {
+  text-align: left !important;
+}
+
+.alignCenter {
+  text-align: center !important;
+}
+
+.alignRight {
+  text-align: right !important;
+}
+
+.alignJustify {
+  text-align: justify !important;
+}
+
+.b,
+.i,
+.u,
+.l,
+.c,
+.r,
+.j {
+  background: #000000;
+  border: 0;
+  padding: 10px;
+  color: #d9d9d9;
+}
+
+select {
+  font-family: 'Poppins', serif;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.file-name {
+  position: relative;
+  bottom: 5px;
+  left: 6%;
+
+}
+
+.align select {
+  width: 138px;
+  height: 30px;
+}
+
+.float select {
+  width: 87px;
+  height: 30px;
+}
+
+#InputColor {
+  position: relative;
+  top: 4px;
+
+}
+
+.just+button {
+  background: #000;
+  color: #ffffff;
+  border: 0;
+  position: relative;
+  bottom: 10px;
+  left: 3%;
+  cursor: pointer;
+}
+
+.just+button:is(:focus) {
+  outline: 2px solid rgb(0, 0, 0);
+  outline-offset: 3px;
+
+}
+
+@media (max-width:600px) {
+  .container {
+    transform: scale(.8);
+  }
+
+  .container .btn {
+    float: none;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+}
