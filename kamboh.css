@@ -1,0 +1,22 @@
+
+  .navbar .bar1 {
+    transition: .5s ease;
+  }
+  .navbar.bar2 {
+    transition: .4s ease;
+  }
+  .navbar .bar3 {
+    transition: .5s ease;
+  }
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+    transition: .5s ease;
+  }
+  .change .bar2 {
+    opacity: 0;
+    transition: .4s ease;
+  }
+  .change .bar3 {
+    transform: translate(0, -3px) rotate(45deg);
+    transition: .5s ease;
+  }
