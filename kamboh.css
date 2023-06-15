@@ -3,7 +3,9 @@
     transition: .5s ease;
   }
   .navbar.bar2 {
-    transition: .4s ease;
+    transition: .5s ease;
+       opacity: 2;
+    
   }
   .navbar .bar3 {
     transition: .5s ease;
