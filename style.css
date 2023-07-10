@@ -228,4 +228,8 @@ select {
     bottom: 0;
     left: 0;
   }
+  ::-webkit-scrollbar {
+  width: 0em;
+  height: 0em;
+}
 }
