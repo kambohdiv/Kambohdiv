@@ -8,10 +8,11 @@
   <img align="center" alt="Coding" width="290" src="https://user-images.githubusercontent.com/123060177/227797198-82940c2a-507a-4bd9-a46a-62b2eb02d7cf.gif" style="max-width: 100%; height: auto;" />
 </div>
 
-- 🔭  I’m currently Working on **Web apps**
+
 - 🌱 I’m currently learning **AI Development**
 - 📫 How to reach me **ahk@alihamzakamboh.com**
 - 📄 Know about my experiences **https://alihamzakamboh.com**
+- 🔭 This is my second Account old Flagged **https://github.com/ahkamboh**
   
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahkamboh) 
